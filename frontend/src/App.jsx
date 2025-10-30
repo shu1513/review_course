@@ -57,7 +57,6 @@ const toggleImportanceOf = (id) => {
 }
 
 const handleNoteChange = (event) =>{
-  console.log(event.target)
   setNewNote(event.target.value)
 }
   if(!notes){
